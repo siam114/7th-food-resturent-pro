@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    padding: 10px 14px 10px 14px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+
+}
+.btn-container{
+    text-align: center;
+    margin-top: 20px;
+}
+#hero{
+    height: 500px;
+    background-image: linear-gradient(0deg, 
+    rgb(16, 16, 16) -19.5%,
+    rgba(16, 16, 16, 0) 100%),
+     url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-content{
+        width: 500px;
+        
+}
+#hero .hero-content .subtitle{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-top: 6px;
+
+}
+#hero .hero-content .title{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 18px;
+ }
+ #hero .hero-content .description{
+ color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+ }
+ #card-box{
+    width: 635px;
+    margin: 100px auto;
+ }
+ #card-box .title{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+ }
+ #card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+ }
+.card-container{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+}
+.card{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 200px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    margin: 0px 10px;
+    padding: 10px 14px 10px 14px;
+}
